@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Gen9Choferes2024Application<Gen9-Choferes2024>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.timal.choferes.Gen9Choferes2024Application",
+            "projectName": "Gen9-Choferes2024",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
