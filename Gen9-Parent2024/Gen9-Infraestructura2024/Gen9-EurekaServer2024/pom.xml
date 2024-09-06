@@ -3,14 +3,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.timal.negocio</groupId>
-		<artifactId>Gen9-Negocio2024</artifactId>
+		<groupId>com.timal.infraestructura</groupId>
+		<artifactId>Gen9-Infraestructura2024</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>com.timal.rutas</groupId>
-	<artifactId>Gen9-Rutas2024</artifactId>
+	<groupId>com.timal.eurekaserver</groupId>
+	<artifactId>Gen9-EurekaServer2024</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Gen9-Rutas2024</name>
+	<name>Gen9-EurekaServer2024</name>
 	<description>Demo project for Spring Boot</description>
 	
 	<properties>
@@ -18,10 +18,16 @@
 	</properties>
 	<dependencies>
 		<dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-webflux</artifactId>
-        </dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+		</dependency>
 	</dependencies>
+	
+	<dependencyManagement>
+		<dependencies>
+			
+		</dependencies>
+	</dependencyManagement>
 
 	<build>
 		<plugins>
